@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@src/*": ["src/*"],
+        "@public/*": ["public/*"],
+        "@components/*": ["components/*"],
+        "@hooks/*": ["hooks/*"],
+        "@store/*": ["store/*"],
+        "@styles/*": ["styles/*"]
+      },
+      "target": "es5",
+      "lib": ["dom", "dom.iterable", "esnext"],
+      "strict": true,
+      "module": "esnext",
+      "jsx": "preserve",
+      "allowJs": true
+    }
+  }
+  
